@@ -9,8 +9,8 @@ $ repo sync --force-sync -j$(nproc --all)
 ```
 ### 2. Clone trees:
 ```bash
-git clone -b 11.0 https://github.com/Jabiyeff-Project/device-santoni device/xiaomi/santoni
-git clone -b 11.0 https://github.com/Jabiyeff-Project/vendor-santoni vendor/xiaomi
+git clone -b 11.0 https://github.com/JktFdrxProjektz-Project/android_device_xiaomi_santonni device/xiaomi/santoni
+git clone -b 11.0 https://github.com/JktFdrxProjektz/android_vendor_xiaomi_santonni vendor/xiaomi
 git clone -b 11.0 https://github.com/Jabiyeff-Project/kernel-santoni kernel/xiaomi/santoni
 ```
 ### 2.1. If your need custom kernel:
@@ -34,8 +34,9 @@ remove /system/system_ext/framework/qti-telephony-common.jar
 ### 3.2. How to use custom kernel source (Not recommended)
 Clone kernel source on kernel/xiaomi/msm8937 path, ROM will be use it.
 
-### 3.3. How to add new ROM support
-Hard to explain, just contact me on [Telegram](https://t.me/jabiyeff21), I will add ROM support which your need (except CAF based ROMs)
+### Special Thanks
+Jabiyeff For Tree
+And You For Support :>
 
 ## Spec Sheet
 
