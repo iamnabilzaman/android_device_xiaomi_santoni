@@ -96,3 +96,12 @@ COMMON_LUNCH_CHOICES += \
     dot_santoni-userdebug \
     dot_santoni-user \
     dot_santoni-eng
+    
+    # Nusantara Project
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/nad_santoni.mk
+
+COMMON_LUNCH_CHOICES := \
+    nad_santoni-userdebug \
+    nad_santoni-user \
+    nad_santoni-eng 
