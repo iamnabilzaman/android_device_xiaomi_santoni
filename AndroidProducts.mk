@@ -106,7 +106,7 @@ COMMON_LUNCH_CHOICES := \
     nad_santoni-user \
     nad_santoni-eng 
 
-# Nusantara Project
+# Yaap OS
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/yaap_santoni.mk
 
