@@ -20,9 +20,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
     
-    # CipherOS Stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# CipherOS Stuff
+    TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Maintainer
+# CipherOS Maintainer
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cipher.maintainer=iamnabilzaman
