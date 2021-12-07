@@ -114,3 +114,12 @@ COMMON_LUNCH_CHOICES := \
     yaap_santoni-userdebug \
     yaap_santoni-user \
     yaap_santoni-eng
+
+# Kasumi Project
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/kasumi_santoni.mk
+
+COMMON_LUNCH_CHOICES := \
+    kasumi_santoni-userdebug \
+    kasumi_santoni-user \
+    kasumi_santoni-eng
